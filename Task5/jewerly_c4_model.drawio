@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="q5gKrhV2WKv8pvfnoQvh">
+    <mxGraphModel dx="2722" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-8" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ji9m1XC_RNga94lnCTZG-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="1163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-9" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="change status" vertex="1">
+          <mxGeometry relative="1" x="-0.0615" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MES API" vertex="1">
+          <mxGeometry height="130" width="40" x="90" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Redis&amp;nbsp;" vertex="1">
+          <mxGeometry height="130" width="40" x="260" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-28" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ji9m1XC_RNga94lnCTZG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-47" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="change successful" vertex="1">
+          <mxGeometry relative="1" x="0.0511" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MES DB" vertex="1">
+          <mxGeometry height="130" width="40" x="450" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="client&lt;div&gt;or&lt;/div&gt;&lt;div&gt;RabbitMQ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="70" x="-140" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-6" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.058;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-60" y="1148" />
+              <mxPoint x="-60" y="1148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-7" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request status change" vertex="1">
+          <mxGeometry relative="1" x="0.0656" y="2" as="geometry">
+            <mxPoint x="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-25" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.075;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-26" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="change status" vertex="1">
+          <mxGeometry relative="1" x="0.0109" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-29" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.925;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="1212" />
+              <mxPoint x="230" y="1212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-48" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="change successful" vertex="1">
+          <mxGeometry relative="1" x="0.0226" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-30" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.986;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-49" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="change successful" vertex="1">
+          <mxGeometry relative="1" x="-0.0413" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MES API" vertex="1">
+          <mxGeometry height="190" width="40" x="90" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-60" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ji9m1XC_RNga94lnCTZG-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-61" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="get data" vertex="1">
+          <mxGeometry relative="1" x="0.2044" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Redis&amp;nbsp;" vertex="1">
+          <mxGeometry height="190" width="40" x="260" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-62" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="Ji9m1XC_RNga94lnCTZG-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-63" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return data" vertex="1">
+          <mxGeometry relative="1" x="0.1178" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MES DB" vertex="1">
+          <mxGeometry height="190" width="40" x="450" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-66" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Ji9m1XC_RNga94lnCTZG-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1442" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-67" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request read list order" vertex="1">
+          <mxGeometry relative="1" x="-0.1937" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="client&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="70" x="-140" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-52" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.058;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="1314" />
+              <mxPoint x="-20" y="1314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-53" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request read list order" vertex="1">
+          <mxGeometry relative="1" x="0.1541" y="2" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-54" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1329" />
+              <mxPoint x="170" y="1329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-55" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cache miss" vertex="1">
+          <mxGeometry relative="1" x="-0.2025" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-64" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="195" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-65" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return data" vertex="1">
+          <mxGeometry relative="1" x="0.0382" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-68" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.042;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1455" />
+              <mxPoint x="160" y="1455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-69" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cache hit" vertex="1">
+          <mxGeometry relative="1" x="-0.4254" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-70" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="1471" />
+              <mxPoint x="230" y="1471" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-71" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return data" vertex="1">
+          <mxGeometry relative="1" x="-0.1654" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-72" edge="1" parent="1" source="Ji9m1XC_RNga94lnCTZG-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.943;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ji9m1XC_RNga94lnCTZG-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1479" />
+              <mxPoint x="50" y="1479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ji9m1XC_RNga94lnCTZG-73" connectable="0" parent="Ji9m1XC_RNga94lnCTZG-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="return data" vertex="1">
+          <mxGeometry relative="1" x="0.412" y="-3" as="geometry">
+            <mxPoint x="42" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
